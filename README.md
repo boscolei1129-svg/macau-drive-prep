@@ -31,6 +31,10 @@ Question and choice text is extracted from the original PDFs with whitespace and
 
 Question counts: Traffic signs 176; Road situations 66; Traffic regulations 150; Offences & penalties 139; Driving safety 116. Total: 647.
 
+## Figure loading
+
+Session figures are fetched and decoded before a new session begins, then reused from memory as you move between questions. A new exam timer starts only after its figures are ready. Loading can be canceled or retried without replacing your existing session. Original figure bytes and source questions are unchanged.
+
 ## Verification
 
 Run `node verify.cjs` in the source checkout. The checks cover the bank, assets, question counts, all 24 option orders for every question, letter references, and unique-coverage/latest-mistake tracking. Browser checks covered practice scoring, timed examination, automatic expiry submission, refresh/resume, and session results.
