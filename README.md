@@ -4,9 +4,13 @@ A personal driving theory prep app containing all 647 original questions from th
 
 ## Open the web app
 
-https://macau-driving-study-bosco.beamygerbil8.chatgpt.site
+https://boscolei1129-svg.github.io/macau-drive-prep/
 
-Open this link in Safari on iPad or iPhone. No ChatGPT account or sign-in is required. Anyone with the link can access the app and source PDFs; the GitHub repository stays private. To add the app to your home screen, use Safari → Share → Add to Home Screen and enable Open as Web App if offered. No study progress is stored in this repository or uploaded to the server. Progress stays per-browser; use backups to transfer it. No analytics or third-party font requests are included.
+Open this link in Safari on iPad or iPhone. No ChatGPT account or sign-in is required. Anyone with the link can access the app and source PDFs; the GitHub repository is public. To add the app to your home screen, use Safari → Share → Add to Home Screen and enable Open as Web App if offered. No study progress is stored in this repository or uploaded to the server. Progress stays per-browser; use backups to transfer it. No analytics or third-party font requests are included.
+
+## GitHub Pages hosting
+
+The site is served by GitHub Pages from the root of the `gh-pages` branch. The `main` branch keeps the app source in `dist/`. Run `./deploy-pages.ps1` after committing updates to publish the current `dist/` tree. No ChatGPT hosting or account is used. Progress is browser-local and is not stored in Git. To transfer progress from an older site address, export it there and import it on this GitHub Pages address using Performance.
 
 ## Use
 
