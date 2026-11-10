@@ -2,11 +2,11 @@
 
 A personal driving theory prep app containing all 647 original questions from the five supplied question booklets. No questions or distractors have been generated. The two supplementary PDFs are included in the source library.
 
-## Open the private app
+## Open the web app
 
 https://macau-driving-study-bosco.beamygerbil8.chatgpt.site
 
-Open this link in Safari on iPad or iPhone and sign in with your owning ChatGPT account. The app and bundled PDFs are restricted to the owner. No study progress is stored in this repository or uploaded to the server. Progress stays per-browser; use backups to transfer it. No analytics or third-party font requests are included.
+Open this link in Safari on iPad or iPhone. No ChatGPT account or sign-in is required. Anyone with the link can access the app and source PDFs; the GitHub repository stays private. To add the app to your home screen, use Safari → Share → Add to Home Screen and enable Open as Web App if offered. No study progress is stored in this repository or uploaded to the server. Progress stays per-browser; use backups to transfer it. No analytics or third-party font requests are included.
 
 ## Use
 
