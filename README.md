@@ -15,7 +15,7 @@ The site is served by GitHub Pages from the root of the `gh-pages` branch. The `
 ## Use
 
 - Practice by topic, unanswered questions, latest mistakes, or bookmarks.
-- Choose a mock exam question count and time limit. The 30-question / 30-minute defaults are customizable practice settings, not a claim about the official exam.
+- Choose a mock exam question count and time limit. The default is 50 questions in 45 minutes, labeled Macau Exam Pace; you can customize these settings.
 - Every new session shuffles answer choices; the same order stays fixed when resuming. Exams also shuffle questions.
 - In letter-reference choices such as “A and C”, references follow the shuffled option positions. Vehicle/figure labels stay unchanged. “All / None of the above” means the other three choices.
 - Exams submit at the deadline, including after you reopen the app. Unanswered exam questions count as incorrect.
