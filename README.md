@@ -12,6 +12,12 @@ Open this link in Safari on iPad or iPhone. No ChatGPT account or sign-in is req
 
 The site is served by GitHub Pages from the root of the `gh-pages` branch. The `main` branch keeps the app source in `dist/`. Run `./deploy-pages.ps1` after committing updates to publish the current `dist/` tree. No ChatGPT hosting or account is used. Progress is browser-local and is not stored in Git. To transfer progress from an older site address, export it there and import it on this GitHub Pages address using Performance.
 
+## Detailed Road Situations explanations
+
+All 66 Road Situations questions include assistant-authored, plain-English diagram analysis after you check a practice answer or submit a session. Each walkthrough describes the scene, relevant rule, reasoning steps, and a memory cue. It addresses the choice you selected and lets you compare all four original choices. Original source-based notes and PDF links remain available; scoring still uses the printed answer key. No questions or answer choices were added or changed. These explanations follow the supplied booklets and do not update their rules from external sources.
+
+Run `node verify-road-analysis.cjs` to check explanation coverage, choice-identity mapping, shuffled-answer rendering, and incorrect-statement wording.
+
 ## Use
 
 - Practice by topic, unanswered questions, latest mistakes, or bookmarks.
